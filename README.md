@@ -1,5 +1,5 @@
 # `MAGIC`
-**MAGIC**, Multi-scAle heteroGeneity analysIs and Clustering, is a semi-supervised clustering method that combines orthogonal projective non-negative matrix factorization and [PYHYDRA](https://github.com/anbai106/pyHYDRA) through double cyclic optimization for more pathologically plausible and robust clustering solutions for brain diseases.
+**MAGIC**, Multi-scAle heteroGeneity analysIs and Clustering, is a semi-supervised clustering method that combines orthogonal projective non-negative matrix factorization and [pyHYDRA](https://github.com/anbai106/pyHYDRA) through double cyclic optimization for more pathologically plausible and robust clustering solutions for brain diseases.
 
 Compared to original HYDRA method, MAGIC has the following advantages:
 - Data-driven fashion for multi-scale feature extraction via OPNMF;
@@ -89,4 +89,4 @@ Note that the above example assume that the input features have been corrected b
 
 ## Citing this work
 ### If you use this software, please cite the following paper:
-> Wen, J., Varol, E., Chand, G., Sotiras, A. and Davatzikos, C., 2020. MAGIC: Multi-scale Heterogeneity Analysis and Clustering for Brain Diseases. arXiv preprint arXiv:2007.00812. MICCAI 2020. - [Preprint](https://arxiv.org/abs/2007.00812)
+> Wen, J., Varol, E., Chand, G., Sotiras, A. and Davatzikos, C., 2020. **MAGIC: Multi-scale Heterogeneity Analysis and Clustering for Brain Diseases**. arXiv preprint arXiv:2007.00812. MICCAI 2020. - [Preprint](https://arxiv.org/abs/2007.00812)
