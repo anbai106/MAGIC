@@ -75,6 +75,8 @@ sub-CLNC0008      ses-M00    1    43.2    1
 We offer a fake dataset in the folder of **MAGIC/data** (the pipeline is not going to run, just to show how the tsv looks like).
 
 ### Running MAGIC for clustering CN vs Subtype1 vs Subtype2 vs ...:
+Note that before running MAGIC, one must have run sopNMF to extract the multi-scale features, because MAGIC will grab the output of sopNMF.
+
 ```
 from from magic.magic_clustering import clustering
 participant_tsv="MAGIC/data/participant.tsv"
