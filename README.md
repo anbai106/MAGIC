@@ -91,4 +91,4 @@ Note that the above example assume that the input features have been corrected b
 
 ## Citing this work
 ### If you use this software, please cite the following paper:
-> Wen J., Varol E., Chand G., Sotiras A., Davatzikos C. (2020) **MAGIC: Multi-scale Heterogeneity Analysis and Clustering for Brain Diseases**. Medical Image Computing and Computer Assisted Intervention – MICCAI 2020. MICCAI 2020. Lecture Notes in Computer Science, vol 12267. Springer, Cham. https://doi.org/10.1007/978-3-030-59728-3_66 - [link](https://link.springer.com/chapter/10.1007/978-3-030-59728-3_66) - [oral](https://www.youtube.com/watch?v=1Ujua2_UMVg&t=11s&ab_channel=JunhaoWen)
+> Wen J., Varol E., Chand G., Sotiras A., Davatzikos C. (2020) **MAGIC: Multi-scale Heterogeneity Analysis and Clustering for Brain Diseases**. Medical Image Computing and Computer Assisted Intervention – MICCAI 2020. MICCAI 2020. Lecture Notes in Computer Science, vol 12267. Springer, Cham. https://doi.org/10.1007/978-3-030-59728-3_66 - [Oral](https://www.youtube.com/watch?v=1Ujua2_UMVg&t=11s&ab_channel=JunhaoWen)
