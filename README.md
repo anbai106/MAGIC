@@ -1,13 +1,13 @@
 # `MAGIC`
-**MAGIC**, Multi-scAle heteroGeneity analysIs and Clustering, is a semi-supervised clustering method that combines orthogonal projective non-negative matrix factorization and [pyHYDRA](https://github.com/anbai106/pyHYDRA) through double cyclic optimization for more pathologically plausible and robust clustering solutions for brain diseases.
-
+**MAGIC**, Multi-scAle heteroGeneity analysIs and Clustering, is a multi-scale semi-supervised clustering method that aims to derive robust clustering solutions across different scales for brain diseases.
+![image info](./data/magic.png)
 Compared to original HYDRA method, MAGIC has the following advantages:
-- Data-driven fashion for multi-scale feature extraction via OPNMF;
-- Demonstration with semi-simulation experiments for better clustering performance.
+- Multi-scale feature extractions via opNMF;
+- Inter-scale consistent clustering solution.
 
 ## Installation
 ### Prerequisites
-In order to run MAGIC, one must have installed [sopNMF]() and [pyHYDRA](https://github.com/anbai106/pyHYDRA). After this, please follow the following steps for isntallation.
+In order to run MAGIC, one must have already installed [pyOPNMF (To come soon)]() and [pyHYDRA](https://github.com/anbai106/pyHYDRA). After this, please follow the following steps for isntallation.
 
 There are three choices to install MAGIC.
 ### Use MAGIC as a python package (TODO)
@@ -48,7 +48,7 @@ The first 3 columns are **participant_id**, **session_id** and **diagnosis**.
 
 Example for feature tsv:
 ```
-participant_id    session_id    diagnosis 
+participant_id    session_id    diagnosis
 sub-CLNC0001      ses-M00    -1   432.1
 sub-CLNC0002      ses-M00    1    398.2
 sub-CLNC0003      ses-M00    -1    412.0
@@ -72,11 +72,9 @@ sub-CLNC0008      ses-M00    1    43.2    1
 ```
 
 ## Example
-We offer a fake dataset in the folder of **MAGIC/data** (the pipeline is not going to run, just to show how the tsv looks like).
+We offer a fake dataset in the folder of **MAGIC/data**. Users should follow the same data structure.
 
 ### Running MAGIC for clustering CN vs Subtype1 vs Subtype2 vs ...:
-Note that before running MAGIC, one must have run sopNMF to extract the multi-scale features, because MAGIC will grab the output of sopNMF.
-
 ```
 from from magic.magic_clustering import clustering
 participant_tsv="MAGIC/data/participant.tsv"
@@ -87,7 +85,6 @@ k_max=8
 cv_repetition=100
 clustering(participant_tsv, opnmf_dir, output_dir, k_min, k_max, 25, 60, 5, cv_repetition)
 ```
-Note that the above example assume that the input features have been corrected by covariate effects, such as age and sex.
 
 ## Citing this work
 ### If you use this software, please cite the following paper:
