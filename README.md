@@ -1,9 +1,9 @@
 <h1 align="center">
   <a href="http://www.junhaowen.com/magic/">
-    <img src="http://www.junhaowen.com/mlni/images/magic.png" alt="mlni Logo">
+    <img src="http://www.junhaowen.com/mlni/images/magic.png" alt="magic Logo">
   </a>
   <br/>
-  MLNI
+  MAGIC
 </h1>
 
 <p align="center"><strong>Multi-scAle heteroGeneity analysIs and Clustering</strong></p>
