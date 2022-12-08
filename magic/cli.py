@@ -51,7 +51,7 @@ def parse_command_line():
     """
 
     parser = argparse.ArgumentParser(
-        prog='magic',
+        prog='magic-cluster',
         description='Perform multi-scale semi-supervised clustering using MAGIC...')
 
     subparser = parser.add_subparsers(

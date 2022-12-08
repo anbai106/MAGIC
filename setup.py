@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="magic",
+    name="magic-cluster",
     version="0.0.1",
     author="junhao.wen",
     author_email="junhao.wen89@email.com",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     entry_points={
         'console_scripts': [
-            'magic = magic.main:main',
+            'magic-cluster = magic-cluster.main:main',
         ],
     },
     classifiers=(
