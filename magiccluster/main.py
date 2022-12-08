@@ -1,4 +1,4 @@
-from magic import cli
+from magiccluster import cli
 
 __author__ = "Junhao Wen"
 __copyright__ = "Copyright 2019-2020 The CBICA & SBIA Lab"

@@ -18,7 +18,7 @@ def magic_func(args):
     Returns:
 
     """
-    from magic.magic_clustering import clustering
+    from magiccluster.magic_clustering import clustering
     clustering(
         args.participant_tsv,
         args.opnmf_dir,
@@ -51,7 +51,7 @@ def parse_command_line():
     """
 
     parser = argparse.ArgumentParser(
-        prog='magic-cluster',
+        prog='magiccluster-cluster',
         description='Perform multi-scale semi-supervised clustering using MAGIC...')
 
     subparser = parser.add_subparsers(
