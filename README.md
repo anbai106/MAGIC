@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="http://www.junhaowen.com/magic/">
-    <img src="./images/magic.png" alt="magic Logo">
+    <img src=".docs/images/magic.png" alt="magic Logo">
   </a>
   <br/>
   MAGIC
