@@ -1,6 +1,6 @@
 <h1 align="center">
-  <a href="http://www.junhaowen.com/magic/">
-    <img src=".docs/images/magic.png" alt="magic Logo">
+  <a href="https://anbai106.github.io/MAGIC/">
+    <img src="https://anbai106.github.io/MAGIC/images/magic.png" alt="magic logo" width="150" height="150">
   </a>
   <br/>
   MAGIC
@@ -9,7 +9,7 @@
 <p align="center"><strong>Multi-scAle heteroGeneity analysIs and Clustering</strong></p>
 
 <p align="center">
-  <a href="http://www.junhaowen.com/magic/">Documentation</a>
+  <a href="https://anbai106.github.io/MAGIC/">Documentation</a>
 </p>
 
 ## `MLNI`
