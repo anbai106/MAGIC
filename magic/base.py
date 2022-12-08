@@ -1,6 +1,6 @@
 import abc
 import pandas as pd
-from pyhydra.utils import GLMcorrection
+from utils import GLMcorrection
 import numpy as np
 import os
 from sklearn.preprocessing import StandardScaler

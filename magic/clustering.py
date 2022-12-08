@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from .utils import consensus_clustering, cv_cluster_stability, hydra_solver_svm_tl
 from .base import WorkFlow
-from pyhydra.utils import hydra_solver_svm
+from utils import hydra_solver_svm
 
 __author__ = "Junhao Wen"
 __copyright__ = "Copyright 2019-2020 The CBICA & SBIA Lab"

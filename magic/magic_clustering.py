@@ -1,8 +1,7 @@
 from .clustering import DualSVM_Subtype, DualSVM_Subtype_transfer_learning
 from .base import OPNMF_Input
 import os, pickle
-from .utils import cluster_stability_across_resolution, summary_clustering_result_multiscale, shift_list, consensus_clustering_across_c
-from pyhydra.utils import make_cv_partition
+from .utils import cluster_stability_across_resolution, summary_clustering_result_multiscale, shift_list, consensus_clustering_across_c, make_cv_partition
 import numpy as np
 
 __author__ = "Junhao Wen"
