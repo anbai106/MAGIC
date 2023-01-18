@@ -1,0 +1,5 @@
+{"keys": ["name", "start", "length", "trackIndex"],
+"annots": [{ "chr": "1",
+"annots": [["rs25", 5974955, 0, 1], ["rs49", 11949909, 0, 2], ["rs73", 17924863, 0, 1]]
+}]
+}
