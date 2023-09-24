@@ -28,7 +28,7 @@ Install other python package dependencies (go to the root folder of MAGIC):
 ```
 Finally, we need install MAGIC from PyPi:
 ```
-3) pip install magiccluster==0.0.2
+3) pip install magiccluster==0.0.3
 ```
 
 ### Use MAGIC from commandline:
