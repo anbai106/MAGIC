@@ -12,7 +12,7 @@
   <a href="https://anbai106.github.io/MAGIC/">Documentation</a>
 </p>
 
-## `MLNI`
+## `MAGIC`
 **MAGIC**, Multi-scAle heteroGeneity analysIs and Clustering, is a multi-scale semi-supervised clustering method that aims to derive robust clustering solutions across different scales for brain diseases.
 
 > :warning: **The documentation of this software is currently under development**
