@@ -90,7 +90,11 @@ clustering(participant_tsv, opnmf_dir, output_dir, k_min, k_max, 25, 60, 5, cv_r
 ```
 
 ## Citing this work
-### If you use this software, please cite the following paper:
+> :warning: Please let me know if you use this package for your publication; I will update your papers in the section of **Publication using MAGIC**...
+
+> :warning: Please cite the software using the **Cite this repository** button on the right sidebar menu, as well as the original papers below ...
+
+### Original papers
 > Wen J., Varol E., Chand G., Sotiras A., Davatzikos C. (2020) **MAGIC: Multi-scale Heterogeneity Analysis and Clustering for Brain Diseases**. Medical Image Computing and Computer Assisted Intervention – MICCAI 2020. MICCAI 2020. Lecture Notes in Computer Science, vol 12267. Springer, Cham. https://doi.org/10.1007/978-3-030-59728-3_66
 
 > Wen J., Varol E., Chand G., Sotiras A., Davatzikos C. (2022) **Multi-scale semi-supervised clustering of brain images: Deriving disease subtypes**. Medical Image Analysis, 2022. https://doi.org/10.1016/j.media.2021.102304 - [Link](https://www.sciencedirect.com/science/article/pii/S1361841521003492)
